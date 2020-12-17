@@ -1,5 +1,6 @@
 import React from 'react'
 import Comment from './Comment'
+import Like from './Like'
 
 export default function Status() {
     return (
@@ -17,6 +18,7 @@ export default function Status() {
                                 </div>
                             </div>
                         </div>
+                        <Like />
                     </div>
                     <p>Hello World!</p>
                     <div className="card-footer text-muted" />
