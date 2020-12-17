@@ -1,4 +1,5 @@
 import React from 'react'
+import Comment from './Comment'
 
 export default function Status() {
     return (
@@ -19,6 +20,7 @@ export default function Status() {
                     </div>
                     <p>Hello World!</p>
                     <div className="card-footer text-muted" />
+                    <Comment />
                 </div>
             </div>
         </>
