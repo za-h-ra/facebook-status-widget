@@ -20,7 +20,6 @@ export default function Status() {
                         </div>
                         <Like />
                     </div>
-                    <p>Hello World!</p>
                     <div className="card-footer text-muted" />
                     <Comment />
                 </div>
